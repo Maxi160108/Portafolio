@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Díaz - Portafolio</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="CSS/styles.css" />
+  </head>
+  
+  <body
+    style="background-color: #fafafa"
+    data-bs-spy="scroll"
+    data-bs-target="#nav-main"
+    data-bs-offset="70"
+  >
+    <header>
+      <nav
+        id="nav-main"
+        class="navbar navbar-expand-lg bg-white shadow-sm sticky-top py-3"
+        data-bs-theme="light"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="#home">Max Díaz</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-links"
+            aria-controls="nav-links"
+            aria-expanded="false"
+            aria-label="Abrir menú"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-links">
+            <ul class="navbar-nav ms-auto align-items-center gap-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">🏠 Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">🌱 About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">💼 Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">⭐ Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">🎓 Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certifications">📜 Certifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">🔥 Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#references">🗣️ References</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">🏆 Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">✉️ Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="banner-main text-white text-center"
+        style="padding-top: 70px"
+      >
+        <div class="container">
+          <div
+            class="row align-items-center"
+            style="min-height: 80vh; padding: 2rem 0"
+          >
+            <div class="col-md-5">
+              <img
+                src="resources/img/foto.jpg"
+                alt="Foto de perfil de Max Díaz"
+                class="banner-img img-fluid shadow"
+              />
+            </div>
+            <div class="col-md-7 mt-4 mt-md-0">
+              <h1 class="display-4 fw-bold text-shadow">¡Hola! Soy Max Díaz</h1>
+              <p class="fs-4 text-shadow" style="line-height: 1.6">
+                Un apasionado desarrollador web y entusiasta de la tecnología,
+                enfocado en IA y aprendizaje automático.
+              </p>
+              <div class="mt-4">
+                <a href="#portfolio" class="btn btn-primary btn-lg me-2"
+                  >Ver Portafolio</a
+                >
+                <a href="#contact" class="btn btn-outline-light btn-lg"
+                  >Contáctame</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-5 bg-custom-red text-white">
+        <div class="container">
+          <div class="row align-items-center shadow rounded p-4 p-md-5">
+            <div class="col-md-8">
+              <h2 class="display-6 fw-bold">Sobre Mí (About)</h2>
+              <p class="fs-5" style="line-height: 1.6">
+                ¡Hola! Soy Max Díaz. Me apasiona hacer realidad ideas de
+                proyectos de inteligencia Artificial, redes neuronales y
+                aprendizaje Automático. En mi tiempo libre, disfruto leer, hacer
+                y escuchar musica, dibujar, hacer modelos en 3D y hacer deportes
+                como futbol y volleyball.
+              </p>
+              <h3 class="fw-bold mt-4">Mi Trayectoria</h3>
+              <p class="fs-5" style="line-height: 1.6">
+                Desde que tengo memoria, siempre he admirado el potencial de la
+                tecnología. Tras mudarme a Chile, tuve la oportunidad de conocer
+                profesionales del sector tecnológico que me inspiraron a
+                convertir ideas en realidad. Empecé a convencerme de que yo
+                también podía hacerlo.
+              </p>
+            </div>
+            <div class="col-md-4 text-center mt-4 mt-md-0">
+              <img
+                src="resources/gifts/Adobe Express - 1030.gif"
+                alt="Imagen sobre mis pasatiempos"
+                class="img-fluid rounded-circle shadow"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Servicios</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <h3 class="fw-bold">Desarrollo Web</h3>
+                  <p>
+                    Creación de sitios web responsivos y funcionales usando HTML,
+                    CSS, JavaScript y Bootstrap.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <h3 class="fw-bold">Proyectos de IA</h3>
+                  <p>
+                    Implementación de modelos de machine learning y redes
+                    neuronales para clasificación y predicción.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center shadow-sm h-100">
+                <div class="card-body p-4">
+                  <h3 class="fw-bold">Modelado 3D</h3>
+                  <p>
+                    Diseño y modelado de objetos en 3D para diversos propósitos
+                    (basado en tu biografía).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-5">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Habilidades (Skills)</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="fw-bold mb-3">Habilidades Técnicas</h3>
+              <div class="mb-3">
+                <span>HTML5</span>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="HTML5"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 90%">90%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <span>CSS3 (Bootstrap)</span>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="CSS3"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 85%">85%</div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <span>Python (TensorFlow/Keras)</span>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Python"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="progress-bar" style="width: 70%">70%</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+              <h3 class="fw-bold mb-3">Habilidades Blandas</h3>
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">Creatividad</li>
+                <li class="list-group-item">Resolución de Problemas</li>
+                <li class="list-group-item">Trabajo en Equipo</li>
+                <li class="list-group-item">Comunicación Efectiva</li>
+                <li class="list-group-item">Autodidacta</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Educación</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="fw-bold">
+                    Especialidad de Programación (Liceo TP)
+                  </h4>
+                  <p class="text-secondary mb-1">Liceo Comercial Vate Vicente Huidobro | 2022 - 2024</p>
+                  <p>
+                    Formación en fundamentos de programación, HTML, CSS,
+                    JavaScript y bases de datos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="py-5">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Certificaciones</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <ul class="list-group list-group-flush fs-5">
+                <li class="list-group-item">
+                  <strong>Inacap</strong> - Instituto (04/08/2025)
+                </li>
+                <li class="list-group-item">
+                  <strong>freecodecamp</strong> - JavaScript
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Experiencia</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="fw-bold">SmartHouse</h4>
+                  <p class="text-secondary mb-1">Proyecto estudiantil | 2025</p>
+                  <p>
+                    Apoyo en el desarrollo de componentes front-end y
+                    mantenimiento de la plataforma web de la empresa.
+                  </p>
+                </div>
+              </div>
+              <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                  <h4 class="fw-bold">Proyecto @mi_turno</h4>
+                  <p class="text-secondary mb-1">Proyecto Académico | 2025</p>
+                  <p>
+                    Integrande del grupo de desarrollo de la creación de la app web para la
+                    organización de tareas del hogar, gestionando el stack y la
+                    base de datos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="references" class="py-5">
+        <div class="container text-center">
+          <h2 class="display-6 fw-bold mb-4">Referencias</h2>
+          <p class="fs-5 text-secondary">
+            Mauricio Medel <br>
+            Profesor de Programación del Liceo Comercial Vate Vicente Huidobro
+            <br>
++56 9 9583 0717
+
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Portafolio</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="resources/img/logos/Diseño sin título (1).png"
+                  class="card-img-top"
+                  alt="Imagen del proyecto Kou"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">Página de ropa Kou</h5>
+                  <p class="card-text">
+                    Página web para tienda de ropa usando HTML, CSS y
+                    JavaScript para una experiencia atractiva.
+                  </p>
+                  <a
+                    href="https://github.com/Maxi160108/PaginaWebKou.git"
+                    class="btn btn-primary mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Ver Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="resources/img/logos/holograma.jpg"
+                  class="card-img-top"
+                  alt="Imagen del proyecto Red Neuronal"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">Red neuronal clasificadora</h5>
+                  <p class="card-text">
+                    Implementación de una red neuronal con Python (TensorFlow/Keras)
+                    para clasificar imagenes(prendas de ropa).
+                  </p>
+                  <a
+                    href="https://github.com/Maxi160108/red-neuronal.git"
+                    class="btn btn-primary mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Ver Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card shadow-sm h-100">
+                <img
+                  src="resources/img/logos/miTurnoLogo.png"
+                  class="card-img-top"
+                  alt="Imagen del proyecto @mi_turno"
+                  style="height: 200px; object-fit: cover"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title fw-bold">@mi_turno</h5>
+                  <p class="card-text">
+                    App web para la organización de las tareas del hogar,
+                    desarrollada para solucionar la desorganización.
+                  </p>
+                  <a
+                    href="https://github.com/Maxi160108/Mi_Turno.git"
+                    class="btn btn-primary mt-auto"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Ver Repositorio</a
+                  >
+                </div>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+          <h2 class="display-6 fw-bold text-center mb-5">Contacto</h2>
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <form action="#" method="POST">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">
+                  Enviar Mensaje
+                </button>
+              </form>
+              <div class="text-center mt-4">
+                <p>O encuéntrame en:</p>
+                <a
+                  href="https://github.com/Maxi160108"
+                  class="btn btn-outline-light btn-lg ms-2"
+                  aria-label="GitHub"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center py-4 bg-white border-top">
+      <div class="container">
+        <p class="mb-0 text-secondary">
+          &copy; 2025 Max Díaz. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    
+    </body>
+</html>
